@@ -7,22 +7,24 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Главная', link: '/' },
+      //{ text: 'Examples', link: '/markdown-examples' },
+      { text: 'Отзывы', link: '/guide/reviews' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Общее',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Отзывы', link: '/guide/reviews' },
+          //{ text: 'Markdown Examples', link: '/markdown-examples' },
+          //{ text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/tkachev-o/uniqbro-docs' }
     ]
   }
 })

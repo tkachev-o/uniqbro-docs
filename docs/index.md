@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Uniqbro DOCS"
   text: "Tips for staff"
-  tagline: My great project tagline
+  tagline: My project tagline
   actions:
     - theme: brand
       text: Markdown Examples
