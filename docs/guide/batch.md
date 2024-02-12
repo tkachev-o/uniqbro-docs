@@ -7,7 +7,9 @@ outline: deep
 
 Перед публикацией фото на сайте следует изменить их размер до оптимальных.
 
-Пресет операций для импорта в Photoshop [Скачать с Google Drive](https://drive.google.com/file/d/1LQqhApa6hjyaq73GYHFQWzgTy2anwIks/view?usp=sharing)
+- Пресет операций для импорта в Photoshop 1920x пикс. [Скачать Resize.atn](https://drive.google.com/file/d/1LQqhApa6hjyaq73GYHFQWzgTy2anwIks/view?usp=sharing)
+
+- Пресет операций для импорта в Photoshop 2560x пикс. [Скачать Resize2k.atn](https://drive.google.com/file/d/1e8DKLN7K6XC3NKbUc8YjD2iRepqBO55A/view?usp=sharing)
 
 Для импорта откройте окно операций комбинацией клавиш Alt + F9. Затем в правом верхнем углу через кнопку вызова контекстного меню выберите Загрузить операции... и следуйте инструкциям.
 В итоге у вас в списке операций должна появиться папка Resize. В данной паке три операции Tall, Wide и Cond. Последняя определяет ориентацию изображения и применяет соответствующую операцию.
