@@ -18,6 +18,7 @@ export default defineConfig({
         items: [
           { text: 'Отзывы', link: '/guide/reviews' },
           { text: 'Ресайз', link: '/guide/batch' },
+          { text: 'Форматирование', link: '/guide/mk' },
           //{ text: 'Markdown Examples', link: '/markdown-examples' },
           //{ text: 'Runtime API Examples', link: '/api-examples' }
         ]
