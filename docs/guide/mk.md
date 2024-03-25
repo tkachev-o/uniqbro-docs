@@ -1,11 +1,13 @@
 ---
 outline: deep
 ---
-# Контент
+# Работа с контентом
+
+Перед публикацией контента следует проверить текст на наличие грамотических, пунктационных ошибок.
 
 ## Пример форматирования описания
 
-Перед публикацией контента следует проверить текст на наличие грамотических, пунктационных ошибок.
+Пример форматирования параграфов с жирным начертанимем и маркеровочного списка.
 
 **Ввод**
 
@@ -42,3 +44,17 @@ Tincidunt integer **commodo**, cursus etiam aliquam neque, et.
     cursus nulla feugiat dignissim id lobortis amet. Laoreet 
     sem est phasellus eu proin massa, lectus. Diam rutrum posuere 
     donec ultricies non morbi. Mi a platea auctor mi.
+
+## Изображение
+
+**Ввод**
+
+```html
+<img src="/upload/iblock/a6553e72.jpg" 
+    class="w-full rounded-lg" 
+    alt="Спящий медведь">
+```
+Значение атрибута класс class="*w-full rounded-lg*" растянет изображение на всю ширину и скруглит углы.
+
+**Вывод**
+![image](https://www.nhm.ac.uk/resources/visit/wpy/2023/peoples-choice/large/webp/886157a5-9b32-41fb-bea2-c5686f31ebc9.webp)
