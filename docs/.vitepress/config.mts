@@ -9,16 +9,16 @@ export default defineConfig({
     nav: [
       { text: 'Главная', link: '/' },
       //{ text: 'Examples', link: '/markdown-examples' },
-      { text: 'Отзывы', link: '/guide/reviews' }
+      { text: 'Введение', link: '/guide/introduction' }
     ],
 
     sidebar: [
       {
-        text: 'Общее',
+        text: 'Введение',
         items: [
-          { text: 'Отзывы', link: '/guide/reviews' },
+          { text: 'Модерация отзывов', link: '/guide/reviews' },
+          { text: 'Работа с контентом', link: '/guide/mk' },
           { text: 'Ресайз', link: '/guide/batch' },
-          { text: 'Форматирование', link: '/guide/mk' },
           //{ text: 'Markdown Examples', link: '/markdown-examples' },
           //{ text: 'Runtime API Examples', link: '/api-examples' }
         ]
