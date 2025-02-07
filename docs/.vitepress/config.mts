@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Uniqbro DOCS",
   description: "Tips for staff",
+  head: [['meta', { name: 'robots', content: 'noindex' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
