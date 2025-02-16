@@ -6,6 +6,9 @@ export default defineConfig({
   description: "Tips for staff",
   head: [['meta', { name: 'robots', content: 'noindex' }]],
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Главная', link: '/' },
